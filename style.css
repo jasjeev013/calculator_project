@@ -34,12 +34,13 @@ h1{
     left: 7%;
 }
 .display{
-    height: 500px;
-    width: 432px;
-    border: 2px solid red;
+    height: 510px;
+    width: 450px;
+    background-color: red;
     position: absolute;
-    top: 23%;
+    top: 22%;
     left: 35%;
+    border-radius: 15px;
 }
 .grid-container {
     display: grid;
@@ -51,7 +52,7 @@ h1{
     padding-top: 10px;
     position: absolute;
     top: 19%;
-    left:7%;
+    left:8%;
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
