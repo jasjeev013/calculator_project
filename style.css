@@ -1,0 +1,53 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    position: absolute;
+    left: 40%;
+    top: 2%;
+
+}
+.calc{
+    margin-top: 130px;
+    margin-left: 490px;
+    border: 2px solid red;
+    height: 480px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: red;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.7);
+}
+
+.display-exp{
+    margin-left:13px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 38px;
+    border-radius: 30px;
+    text-align: end;
+    position: absolute;
+    top: 23%;
+    left: 37%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    row-gap: 10px;
+    column-gap: 10px;
+    /* background-color: #2196F3; */
+    padding-left: 10px;
+    padding-top: 10px;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 40px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
